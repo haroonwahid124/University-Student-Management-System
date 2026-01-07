@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ViewManagerDashboard">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="14" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="700" height="600"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="91b0f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="22" style="1"/>
+          <text value="SYSTEM MANAGER DASHBOARD"/>
+        </properties>
+      </component>
+      <component id="a4c7f" class="javax.swing.JLabel" binding="welcomeLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Welcome, Manager (Admin)!"/>
+        </properties>
+      </component>
+      <component id="883c1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="1. Pending User Management"/>
+        </properties>
+      </component>
+      <component id="98a1b" class="javax.swing.JButton" binding="approveRejectUsersButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Approve / Reject New Users"/>
+        </properties>
+      </component>
+      <component id="55b2c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="2. Active User Account Maintenance"/>
+        </properties>
+      </component>
+      <component id="663c1" class="javax.swing.JButton" binding="manageUserAccountsButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Activate / Deactivate / Password Reset"/>
+        </properties>
+      </component>
+      <component id="452d1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="3. Curriculum &amp; Enrollment"/>
+        </properties>
+      </component>
+      <component id="1a3b2" class="javax.swing.JButton" binding="addCourseModuleButton">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Add New Course / Module"/>
+        </properties>
+      </component>
+      <component id="c7d9e" class="javax.swing.JButton" binding="assignModuleToCourseButton">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Assign Module to Course"/>
+        </properties>
+      </component>
+      <component id="7f1e0" class="javax.swing.JButton" binding="updateCourseInfoButton">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Update Course Description"/>
+        </properties>
+      </component>
+      <component id="3a8a3" class="javax.swing.JButton" binding="enrolStudentsButton">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Enrol Student in Course"/>
+        </properties>
+      </component>
+      <component id="b3c2d" class="javax.swing.JButton" binding="assignModuleToLecturerButton">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Assign Module to Lecturer"/>
+        </properties>
+      </component>
+      <component id="e1f2d" class="javax.swing.JButton" binding="issueStudentDecisionButton">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Issue Student Decision (Award/Resit)"/>
+        </properties>
+      </component>
+      <component id="c2d1f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="4. Reporting &amp; System Rules"/>
+        </properties>
+      </component>
+      <component id="d9e0f" class="javax.swing.JButton" binding="addBusinessRuleButton">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Add Business Rule"/>
+        </properties>
+      </component>
+      <component id="4b8a3" class="javax.swing.JButton" binding="displayCourseDetailsButton">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Display Course Details"/>
+        </properties>
+      </component>
+      <component id="8c7a2" class="javax.swing.JButton" binding="displayModuleDetailsButton">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Display Module Details"/>
+        </properties>
+      </component>
+      <hspacer id="e9c1d">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="a1b2c">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="f0e1d" class="javax.swing.JButton" binding="logoutButton">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Logout"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
